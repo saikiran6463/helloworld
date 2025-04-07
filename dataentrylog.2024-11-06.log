@@ -1,0 +1,36 @@
+2024-11-06 20:15:44 - c.s.dataentry.HelloworldApplication -INFO: Starting HelloworldApplication using Java 22.0.2 with PID 4616 (C:\Users\peddo\IdeaProjects\helloworld\target\classes started by SaiKiran in C:\Users\peddo\IdeaProjects\helloworld)
+2024-11-06 20:15:44 - c.s.dataentry.HelloworldApplication -DEBUG: Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-11-06 20:15:44 - c.s.dataentry.HelloworldApplication -INFO: No active profile set, falling back to 1 default profile: "default"
+2024-11-06 20:15:44 - o.s.d.r.c.RepositoryConfigurationDelegate -INFO: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-06 20:15:44 - o.s.d.r.c.RepositoryConfigurationDelegate -INFO: Finished Spring Data repository scanning in 50 ms. Found 1 JPA repository interface.
+2024-11-06 20:15:45 - o.s.b.w.e.tomcat.TomcatWebServer -INFO: Tomcat initialized with port 8080 (http)
+2024-11-06 20:15:45 - o.a.coyote.http11.Http11NioProtocol -INFO: Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-06 20:15:45 - o.a.catalina.core.StandardService -INFO: Starting service [Tomcat]
+2024-11-06 20:15:45 - o.a.catalina.core.StandardEngine -INFO: Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-06 20:15:45 - o.a.c.c.C.[Tomcat].[localhost].[/] -INFO: Initializing Spring embedded WebApplicationContext
+2024-11-06 20:15:45 - o.s.b.w.s.c.ServletWebServerApplicationContext -INFO: Root WebApplicationContext: initialization completed in 1141 ms
+2024-11-06 20:15:45 - com.zaxxer.hikari.HikariDataSource -INFO: HikariPool-1 - Starting...
+2024-11-06 20:15:45 - com.zaxxer.hikari.pool.HikariPool -INFO: HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-11-06 20:15:45 - com.zaxxer.hikari.HikariDataSource -INFO: HikariPool-1 - Start completed.
+2024-11-06 20:15:45 - o.s.b.a.h.H2ConsoleAutoConfiguration -INFO: H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-11-06 20:15:45 - o.h.jpa.internal.util.LogHelper -INFO: HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-06 20:15:45 - org.hibernate.Version -INFO: HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-06 20:15:45 - o.h.c.i.RegionFactoryInitiator -INFO: HHH000026: Second-level cache disabled
+2024-11-06 20:15:46 - o.s.o.j.p.SpringPersistenceUnitInfo -INFO: No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-06 20:15:47 - o.h.e.t.j.p.i.JtaPlatformInitiator -INFO: HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-06 20:15:47 - o.s.o.j.LocalContainerEntityManagerFactoryBean -INFO: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-06 20:15:47 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -WARN: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-06 20:15:47 - o.a.coyote.http11.Http11NioProtocol -INFO: Starting ProtocolHandler ["http-nio-8080"]
+2024-11-06 20:15:47 - o.s.b.w.e.tomcat.TomcatWebServer -INFO: Tomcat started on port 8080 (http) with context path '/'
+2024-11-06 20:15:47 - c.s.dataentry.HelloworldApplication -INFO: Started HelloworldApplication in 3.765 seconds (process running for 4.754)
+2024-11-06 20:16:13 - o.a.c.c.C.[Tomcat].[localhost].[/] -INFO: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-06 20:16:13 - o.s.web.servlet.DispatcherServlet -INFO: Initializing Servlet 'dispatcherServlet'
+2024-11-06 20:16:13 - o.s.web.servlet.DispatcherServlet -INFO: Completed initialization in 2 ms
+2024-11-06 20:16:13 - c.s.d.controller.HelloController -INFO: Received request to create a new user: User [id=null, name=Vottakayalu 1, age=25]
+2024-11-06 20:16:13 - c.s.d.service.UserServiceImpl -TRACE: Entering saveUser method from the controller class to save the data in db
+2024-11-06 20:16:13 - c.s.d.service.UserServiceImpl -TRACE: User successfully saved to the database with usenname: Vottakayalu 1 and exits from the saveUser method.
+2024-11-06 20:16:13 - c.s.d.controller.HelloController -INFO: User successfully saved with name: User [id=1, name=Vottakayalu 1, age=25]
+2024-11-06 21:19:34 - com.zaxxer.hikari.pool.HikariPool -WARN: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=22m18s183ms491µs600ns).
+2024-11-06 21:20:11 - o.s.o.j.LocalContainerEntityManagerFactoryBean -INFO: Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-06 21:20:11 - com.zaxxer.hikari.HikariDataSource -INFO: HikariPool-1 - Shutdown initiated...
+2024-11-06 21:20:11 - com.zaxxer.hikari.HikariDataSource -INFO: HikariPool-1 - Shutdown completed.
